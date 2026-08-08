@@ -11,7 +11,8 @@ jbang atunko@atunko-dev search "spring"
 jbang atunko@atunko-dev run -r org.openrewrite.java.RemoveUnusedImports
 ```
 
-The alias resolves the latest [atunko release](https://github.com/atunko-dev/atunko/releases);
+The alias resolves the rolling [snapshot pre-release](https://github.com/atunko-dev/atunko/releases/tag/snapshot)
+(stable releases will take over once published);
 JBang provisions a matching Java runtime automatically.
 
 The canonical copy of this catalog lives in the main repository
